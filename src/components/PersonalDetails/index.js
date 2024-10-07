@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     marginVertical: 20,
     marginHorizontal: 20,
     borderWidth: 2,
-    borderColor: '#DA8359',
+    borderColor: '#E2F1E7',
     width: '80%',
   },
   lightTitle: {

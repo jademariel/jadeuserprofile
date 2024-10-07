@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
     width: 130,
     height: 145,
     borderRadius: 99,
-    borderWidth: 2,            
-    borderColor: '#DA8359',  
+    borderWidth: 1,            
+    borderColor: '#E2F1E7',  
   },
 });
 

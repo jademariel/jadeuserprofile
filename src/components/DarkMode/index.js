@@ -36,7 +36,7 @@
         backgroundColor: '#ECDFCC', 
         margin: 25,
         borderWidth: 2,          
-        borderColor: '#DA8359',
+        borderColor: '#FCFAEE',
         justifyContent: 'flex-start', 
         marginLeft: -120
       },
@@ -52,7 +52,7 @@
         backgroundColor: '#3e3e3e', 
         borderRadius: 10,        
         borderWidth: 2,          
-        borderColor: '#DA8359',
+        borderColor: '#FCFAEE',
       },
       
       darkLabel: {

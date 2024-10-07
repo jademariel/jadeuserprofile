@@ -3,7 +3,7 @@ import { View, StyleSheet } from 'react-native';
 import HeaderCover from './src/components/HeaderCover';
 import Avatar from './src/components/Avatar';
 import DarkModeToggle from './src/components/DarkMode';
-import PersonalDetails from './src/components/PersonalDetails'; // Import PersonalDetails
+import PersonalDetails from './src/components/PersonalDetails';
 
 export default function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'center',
-    backgroundColor: '#FFFBE6',
+    backgroundColor: '#FEFAE0',
   },
   darkBackground: {
     backgroundColor: '#2c2c2c',

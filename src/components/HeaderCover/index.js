@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 200,
     borderBottomWidth: 4,
-    borderBottomColor: '#DA8359',
+    borderBottomColor: '#FCFAEE',
   },
   headerBackground: {
     width: '100%',
