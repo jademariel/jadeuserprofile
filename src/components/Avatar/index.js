@@ -15,18 +15,18 @@ const Avatar = () => {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute',      
-    top: 160,                  
-    right: 20,                 
+    top: 130,                  
+    right: 1,                 
     justifyContent: 'center',
     alignItems: 'center',
   },
 
   avatar: {
-    width: 130,
-    height: 145,
+    width: 135,
+    height: 135,
     borderRadius: 99,
-    borderWidth: 1,            
-    borderColor: '#E2F1E7',  
+    borderWidth: 2,            
+    borderColor: '#FCFAEE',  
   },
 });
 

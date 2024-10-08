@@ -13,23 +13,9 @@ const NameTitle = ({ isDarkMode }) => {
 const styles = StyleSheet.create({
   container: {
     position: 'absolute', 
-    bottom: 30,
-    left: 20,           
+    bottom: 5,
+    left: 6,           
     alignItems: 'flex-start', 
-  },
-
-  title: {
-    width: 100,               
-    height: 30,            
-    paddingVertical: 5,     
-    paddingHorizontal: 10,   
-    fontSize: 15,
-    fontStyle: 'italic',
-    borderRadius: 10,       
-    borderWidth: 2,          
-    backgroundColor: '#fae2e3', 
-    textAlign: 'center',      
-    marginBottom: 30,
   },
 
   name: {

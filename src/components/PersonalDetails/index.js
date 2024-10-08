@@ -14,12 +14,12 @@ const PersonalDetails = ({ isDarkMode }) => {
 
       {/* QR Code for Instagram */}
       <View style={styles.qrContainer}>
-        <Text style={[styles.text, isDarkMode ? styles.darkText : styles.lightText]}>
+        <Text style={[styles.text, styles.italicText, isDarkMode ? styles.darkText : styles.lightText]}>
           Scan to visit my Instagram:
         </Text>
         <QRCode
           value={instagramLink}
-          size={130} // Adjusted size
+          size={130}  
           color={isDarkMode ? '#ffffff' : '#000000'} 
           backgroundColor={isDarkMode ? '#000000' : '#ffffff'} 
         />
@@ -27,12 +27,12 @@ const PersonalDetails = ({ isDarkMode }) => {
 
       {/* QR Code for GitHub */}
       <View style={styles.qrContainer}>
-        <Text style={[styles.text, isDarkMode ? styles.darkText : styles.lightText]}>
+        <Text style={[styles.text, styles.italicText, isDarkMode ? styles.darkText : styles.lightText]}>
           Scan to visit my GitHub:
         </Text>
         <QRCode
           value={githubLink}
-          size={130} 
+          size={130}
           color={isDarkMode ? '#ffffff' : '#000000'} 
           backgroundColor={isDarkMode ? '#000000' : '#ffffff'} 
         />
@@ -42,44 +42,44 @@ const PersonalDetails = ({ isDarkMode }) => {
 };
 
 const styles = StyleSheet.create({
-  title: {
-    fontSize: 20, 
-    fontWeight: 'bold',
-    marginBottom: 15,
-  },
-  text: {
-    fontSize: 14,
-    marginBottom: 5,
-  },
-  qrContainer: {
-    alignItems: 'center',
-    marginVertical: 15, 
-  },
-  // Light Mode
   container: {
-    padding: 35,
-    borderRadius: 25,
-    marginVertical: 20,
+    padding: 25,
+    borderRadius: 35,
+    marginVertical: 69,
     marginHorizontal: 20,
     borderWidth: 2,
     borderColor: '#E2F1E7',
     width: '80%',
   },
+  text: {
+    fontSize: 13,
+    marginBottom: 5,
+  },
+  qrContainer: {
+    alignItems: 'center',
+    marginVertical: 8,
+  },
   lightTitle: {
     color: '#000',
+    fontSize: 20,
+    fontWeight: 'bold', // Make "Connect with Me!" bold
   },
   lightText: {
     color: '#000',
   },
-  // Dark Mode
   darkContainer: {
     backgroundColor: '#243642',
   },
   darkTitle: {
     color: '#fff',
+    fontSize: 20,
+    fontWeight: 'bold', // Make "Connect with Me!" bold
   },
   darkText: {
     color: '#fff',
+  },
+  italicText: {
+    fontStyle: 'italic', // Make "Scan to visit my Instagram/GitHub" italic
   },
 });
 
